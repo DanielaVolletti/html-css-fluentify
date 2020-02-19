@@ -128,6 +128,8 @@ header{
 #container-sezioni-img{
   margin-top: 30px;
   margin-bottom: 50px;
+  border-bottom: solid 1px #999;
+  padding-bottom: 50px;
 }
 
 .immagine-commentata{
@@ -166,22 +168,16 @@ header{
 }
 
 /* secondo contenitore uguale a quarto*/
+
 .immagine-sin{
   float: left;
   width: 50%;
-  /* debug */
-  height: 80px;
-  background-color: blue;
-  /* fine debug */
 }
 
 .paragrafo-destra{
   float: left;
   width: 50%;
-  /* debug */
-  height: 80px;
-  background-color: red;
-  /* fine debug */
+  padding: 50px;
 }
 
 .immagine-paragrafoleft::after{
@@ -190,7 +186,84 @@ header{
   clear: both;
 }
 
+.paragrafo-destra h4{
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.paragrafo-destra p{
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.paragrafo-destra a{
+  font-size: 15px;
+  color: lightblue;
+  text-decoration: underline;
+}
+
 /* terzo contenitore */
+#seleziona-piano{
+  background-color: #f9f9f9;
+  padding: 40px 100px;
+  color: #4a4a4a;
+}
+
+#sec1{
+  float: left;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+}
+
+#sec1 h2{
+  font-size: 30px;
+}
+
+#sec2{
+  float: left;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+}
+
+#sec2 span{
+  font-size: 30px;
+  color: #999;
+  margin-right: 30px;
+}
+
+#sec2 select{
+  background: none;
+  border: none;
+  border-bottom: solid 2px grey;
+  margin-right: 30px;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: #999;
+}
+
+#sec2 button{
+  border: none;
+  background-color: #7fb802;
+  color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#seleziona-piano::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* quarto contenitore */
 #lezioni-one-to-one{
   float: left;
   width: 50%;
@@ -215,7 +288,7 @@ header{
   clear: both;
 }
 
-/* quinto contenitore */
+/* sesto contenitore */
 #pc-24h{
   /* debug */
   height: 80px;
@@ -223,7 +296,7 @@ header{
   /* fine debug */
 }
 
-/* sesto contenitore */
+/* settimo contenitore */
 
 #inglese-azienda{
   /* debug */
@@ -232,7 +305,7 @@ header{
   /* fine debug */
 }
 
-/* settimo contenitore */
+/* ottavo contenitore */
 #struttura-piano h3{
   /* debug */
   height: 50px;
