@@ -93,10 +93,97 @@ header{
   clear: both;
 }
 
+/* terzo contenitore */
+#lezioni-one-to-one{
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 80px;
+  background-color: black;
+  /* fine debug */
+}
+
+#call{
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 80px;
+  background-color: lightblue;
+  /* fine debug */
+}
+
+#one-to-one::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* quinto contenitore */
+#pc-24h{
+  /* debug */
+  height: 80px;
+  background-color: yellow;
+  /* fine debug */
+}
+
+/* sesto contenitore */
+
+#inglese-azienda{
+  /* debug */
+  height: 80px;
+  background-color: white;
+  /* fine debug */
+}
+
+/* settimo contenitore */
+#struttura-piano h3{
+  /* debug */
+  height: 50px;
+  border: solid 1px red;
+  /* fine debug */
+}
+
+.studente-prof-azienda{
+  float: left;
+  width: 33%;
+  /* debug */
+  height: 80px;
+  border: solid 1px black;
+  /* fine debug */
+}
+
+#struttura-piano::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* piè di pagina */
 footer{
   /* debug */
   height: 150px;
   background-color: pink;
+  /* fine debug */
+}
+
+#faqs{
+  /* debug */
+  height: 50px;
+  background-color: purple;
+    /* fine debug */
+}
+
+#fondo-pagina::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dati{
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 100px;
+  border: solid 1px black;
   /* fine debug */
 }
