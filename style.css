@@ -3,11 +3,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a{
   text-decoration: none;
 }
+
+.spazio-sinistra{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 /* parte intestazione header */
 header{
   background-image: url('img/sfondo-1.jpg');
@@ -28,10 +35,10 @@ header{
   padding-right: 40px;
 }
 
+
 #navigazione-up a{
   color: white;
   padding-right: 10px;
-  padding-bottom: 10px;
   font-size: 11px;
   font-weight: bold;
 }
@@ -64,7 +71,8 @@ header{
 }
 
 #login :nth-child(2){
-  border-color: blue;
+  border-color: lightblue;
+  background: none;
 }
 
 #navigazione-up::after{
@@ -99,15 +107,56 @@ header{
 /* primo contenitore */
 #titolo-sotto{
   background-color: #f9f9f9;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 1.5;
+}
+
+#titolo-sotto h3{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#titolo-sotto h4{
+  font-size: 20px;
+  font-weight: lighter;
+  color: #999;
+}
+
+/* secondo div primo contenitore */
+#container-sezioni-img{
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .immagine-commentata{
   float: left;
   width: 33%;
-  /* debug */
-  height: 60px;
-  border: solid 1px black;
-  /* fine debug */
+  text-align: center;
+  line-height: 1.5;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.titolo-verde{
+  height: 90px;
+}
+
+.titolo-verde h4{
+  font-weight: normal;
+  color: #7fb802;
+  font-size: 25px;
+}
+
+.immagine-commentata p{
+  color: #999;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.img-blocco2{
+  height: 200px;
 }
 
 #container-sezioni-img::after{
