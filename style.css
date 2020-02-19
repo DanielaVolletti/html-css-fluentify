@@ -5,30 +5,66 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
 /* parte intestazione header */
 header{
-  /* debug */
-  height: 150px;
-  background-color: blue;
-  /* fine debug */
+  background-image: url('img/sfondo-1.jpg');
+  background-size: cover;
+  padding: 20px 100px 20px 100px;;
 }
 
 #barra-navigazione{
   float: left;
   width: 60%;
-  /* debug */
-  height: 50px;
-  background-color: red;
-  /* fine debug */
+}
+
+#barra-navigazione li{
+  display: inline-block;
+}
+
+#barra-navigazione img{
+  padding-right: 40px;
+}
+
+#navigazione-up a{
+  color: white;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#barra-navigazione .orange:hover{
+  color: orange;
 }
 
 #login{
   float: right;
-  width: 30%;
-  /* debug */
-  height: 50px;
-  background-color: yellow;
-  /* fine debug */
+  width: 35%;
+  padding-top: 20px;
+}
+
+#login button{
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+
+#login a{
+  opacity: 0.6;
+}
+
+#login :nth-child(3){
+  background-color: #7fb802;
+  border-color: #7fb802;
+}
+
+#login :nth-child(2){
+  border-color: blue;
 }
 
 #navigazione-up::after{
@@ -38,19 +74,31 @@ header{
 }
 
 #titolo-pulsante{
-  /* debug */
-  height: 50px;
-  background-color: orange;
-  /* fine debug */
+  margin-bottom: 10%;
+}
+
+#titolo-pulsante h1{
+  font-size: 50px;
+  color: white;
+  margin-top: 10%;
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+
+#titolo-pulsante button{
+  background-color: #7fb802;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border-color: #7fb802;
 }
 
 /* corpo centrale pagina */
 /* primo contenitore */
 #titolo-sotto{
-  /* debug */
-  height: 50px;
-  background-color: grey;
-  /* fine debug */
+  background-color: #f9f9f9;
 }
 
 .immagine-commentata{
