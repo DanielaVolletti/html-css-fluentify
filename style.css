@@ -1,0 +1,102 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* parte intestazione header */
+header{
+  /* debug */
+  height: 150px;
+  background-color: blue;
+  /* fine debug */
+}
+
+#barra-navigazione{
+  float: left;
+  width: 60%;
+  /* debug */
+  height: 50px;
+  background-color: red;
+  /* fine debug */
+}
+
+#login{
+  float: right;
+  width: 30%;
+  /* debug */
+  height: 50px;
+  background-color: yellow;
+  /* fine debug */
+}
+
+#navigazione-up::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#titolo-pulsante{
+  /* debug */
+  height: 50px;
+  background-color: orange;
+  /* fine debug */
+}
+
+/* corpo centrale pagina */
+/* primo contenitore */
+#titolo-sotto{
+  /* debug */
+  height: 50px;
+  background-color: grey;
+  /* fine debug */
+}
+
+.immagine-commentata{
+  float: left;
+  width: 33%;
+  /* debug */
+  height: 60px;
+  border: solid 1px black;
+  /* fine debug */
+}
+
+#container-sezioni-img::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* secondo contenitore uguale a quarto*/
+.immagine-sin{
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 80px;
+  background-color: blue;
+  /* fine debug */
+}
+
+.paragrafo-destra{
+  float: left;
+  width: 50%;
+  /* debug */
+  height: 80px;
+  background-color: red;
+  /* fine debug */
+}
+
+.immagine-paragrafoleft::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* piè di pagina */
+footer{
+  /* debug */
+  height: 150px;
+  background-color: pink;
+  /* fine debug */
+}
